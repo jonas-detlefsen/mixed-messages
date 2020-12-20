@@ -1,38 +1,38 @@
 const nouns = [
-    seashells,
-    Buddhism,
-    bohemians,
-    jewelry,
-    beekeeping,
-    coffin,
-    books,
-    cotton,
+    'seashell',
+    'Buddhism',
+    'bohemian',
+    'jewelry',
+    'beekeeping',
+    'coffin',
+    'book',
+    'cotton',
 ]
 
 const verbs = [
-    educate,
-    fold
-    equip,
-    correct,
-    rush,
-    glance,
-    figure,
-    accommodate,
-    brush,
-    remind,
+    'educate',
+    'fold',
+    'equip',
+    'correct',
+    'rush',
+    'glance',
+    'figure',
+    'accommodate',
+    'brush',
+    'remind',
 ]
 
 const adjectives = [
-    tired,
-    poised,
-    entertaining,
-    remarkable,
-    selfish,
-    popular,
-    proud,
-    kindly,
-    craven,
-    humdrum,
+    'tired',
+    'poised',
+    'entertaining',
+    'remarkable',
+    'selfish',
+    'popular',
+    'proud',
+    'kindly',
+    'craven',
+    'humdrum',
 ]
 
 const messageRandomizer = () => {
@@ -43,6 +43,6 @@ const messageRandomizer = () => {
     console.log(randomSentence);
 }
 
-
+messageRandomizer();
 
 
