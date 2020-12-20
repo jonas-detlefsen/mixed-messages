@@ -1,4 +1,4 @@
-const subjects = [
+const nouns = [
     seashells,
     Buddhism,
     bohemians,
@@ -34,6 +34,14 @@ const adjectives = [
     craven,
     humdrum,
 ]
+
+const messageRandomizer = () => {
+    const randomIndexNouns = Math.floor(Math.random() * nouns.length);
+    const randomIndexVerbs = Math.floor(Math.random() * verbs.length);
+    const randomIndexAdjectives = Math.floor(Math.random() * adjectives.length);
+    const randomSentence = `A ${adjectives[randomIndexAdjectives]} ${nouns[randomIndexNouns]} ${verbs[randomIndexVerbs]}.`;
+    console.log(randomSentence);
+}
 
 
 
